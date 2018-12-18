@@ -24,7 +24,7 @@ def processPolymer(s):
     return ''.join(s)
 
 f = None
-with open('input.txt', 'r') as fileIn:
+with open('../inputs/05-input', 'r') as fileIn:
     f = fileIn.read().rstrip()
 
 # part 1

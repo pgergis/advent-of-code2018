@@ -35,7 +35,7 @@ def getWholeClaims(claims, fabric):
 
 if __name__ == '__main__':
     claims = []
-    with open("inputs/03-input", 'r') as f:
+    with open("../inputs/03-input", 'r') as f:
         for line in f:
             claims.append(parseLine(line))
 

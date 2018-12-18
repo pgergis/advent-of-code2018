@@ -1,6 +1,6 @@
 from collections import Counter
 
-input = "inputs/01-input"
+input = "../inputs/01-input"
 
 freqTable = Counter([0])
 with open(input, 'r') as f:

@@ -64,7 +64,7 @@ def getGuardMinuteSleepFreq(guardKeys, timeline):
     return minuteSleepFreq
 
 if __name__ == '__main__':
-    timeline, guardOrder = processScheduleFile('input.txt')
+    timeline, guardOrder = processScheduleFile('../inputs/04-input')
     guardSleepTimes = getSleepTimes(zip(guardOrder, sorted(timeline)), timeline)
 
     # part 1

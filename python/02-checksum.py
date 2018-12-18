@@ -32,7 +32,7 @@ def findSimilar(boxIDs):
 
 if __name__ == '__main__':
     boxIDs = []
-    with open("inputs/02-input", 'r') as f:
+    with open("../inputs/02-input", 'r') as f:
         for line in f:
             boxIDs.append(line)
     print("checksum", getChecksum(boxIDs))

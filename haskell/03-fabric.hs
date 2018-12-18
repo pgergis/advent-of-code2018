@@ -37,6 +37,6 @@ processInput2 counter lines = map fst $ filter predicate processed
         predicate = \item -> all (\coord -> (M.lookup coord counter) == Just 1) (snd item)
 
 main = do
-  f <- readFile "inputs/03-input"
+  f <- readFile "../inputs/03-input"
   putStrLn $ show $ processInput1 $ getOverlapCounter (lines f)
   putStrLn $ show $ processInput2 (getOverlapCounter (lines f)) (lines f)
